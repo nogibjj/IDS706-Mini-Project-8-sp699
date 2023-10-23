@@ -55,7 +55,7 @@ fn average(path: &str) -> Result<f64, Box<dyn Error>> {
 }
 
 fn main() {
-    let path = "/workspaces/Mini-Project-8/births14.csv"; // Updated with the actual CSV file path
+    let path = "/workspaces/IDS706-Mini-Project-8-sp699/births14.csv"; // Updated with the actual CSV file path
 
     match average(path) {
         Ok(avg) => println!("Average weight: {:.5}", avg),
