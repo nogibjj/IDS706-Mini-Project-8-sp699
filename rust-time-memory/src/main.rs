@@ -58,7 +58,7 @@ fn main() {
     let path = "/workspaces/IDS706-Mini-Project-8-sp699/births14.csv"; // Updated with the actual CSV file path
 
     match average(path) {
-        Ok(avg) => println!("Average weight: {:.5}", avg),
+        Ok(avg) => println!("Average weight: {:.4}", avg),
         Err(err) => eprintln!("Error: {}", err),
     }
 
