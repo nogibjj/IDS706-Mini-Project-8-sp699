@@ -191,4 +191,19 @@ __`Python`__
         test_calculate_time_memory()
     ```
 
-## :ballot_box_with_check: Compare the results
+## :ballot_box_with_check: Results
+#### Calculate the average weight, measure the time taken, and monitor memory usage.
+* `Rust` </br>
+  ![image](https://github.com/nogibjj/IDS706-Mini-Project-8-sp699/assets/143478016/741f887c-a91b-4b78-8dd5-dd58095c7aff) </br>
+* `Python` </br>
+  <img src="https://github.com/nogibjj/IDS706-Mini-Project-8-sp699/assets/143478016/99743682-596c-4a76-9df2-4ea0a2dddd65.png" width="450" height="250"/></br>
+  
+|                    |        Rust       |       Python      |       Improvement       |
+|:------------------:|:-----------------:|:-----------------:|:-----------------------:|
+|  Average of weight |       7.1982      |       7.1982      | The values are the same |
+|    Elapsed Time    | 0.0028335 seconds | 0.0032933 seconds |         x 1.162         |
+|    Memory Usage    |    0 kilobytes    |   1024 kilobytes  |          x 1024         |
+| Final Elapsed Time | 0.0028335 seconds | 0.0032933 seconds |         x 1.162         |
+| Final Memory Usage | 2621440 kilobytes |  70888 kilobytes  |         x 0.027         |
+
+* Based on the results, Rust generally executes functions faster and with lower memory usage compared to Python, aligning with theoretical expectations. Additionally, Rust shows faster elapsed time at the final stage, but final memory usage has decreased. In other words, it's important to note that actual performance may vary depending on the specific functions, and there are scenarios where Python may exhibit better time and memory efficiency. In summary, Rust and Python may exhibit different memory usage patterns based on their respective features and objectives.
